@@ -4,7 +4,7 @@
   "description": "Nasa project API",
   "main": "src/server.js",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "jest --detectOpenHandles --watchAll=false --forceExit",
     "test-watch": "jest --watchAll",
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
